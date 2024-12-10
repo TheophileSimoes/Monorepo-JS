@@ -8,6 +8,7 @@ import "../database/checkConnection";
 
 // Import the Express application from ./app
 import app from "./app";
+
 const sayWelcome: RequestHandler = (req, res) => {
   res.send("Welcome to Wild Series !");
 };
